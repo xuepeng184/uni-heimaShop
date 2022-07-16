@@ -1,0 +1,1 @@
+<view class="contact"><image class="img" src="http://www.itcast.cn/2018czydz/images/gywmban.jpg"></image><view class="info"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" bindtap="__e">联系电话：13533393157（ 点击拨打 ）</view><view>联系地址：重庆市南岸区南山街道崇文路2号重庆邮电大学</view></view><map latitude="{{latitude}}" scale="14" longitude="{{longtitude}}" markers="{{markers}}"></map></view>
