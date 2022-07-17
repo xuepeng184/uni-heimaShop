@@ -1,8 +1,7 @@
 <template>
-
 	<view class="goods_list">
-		<view class="goods_item" v-for="item in goods" :key="item.id">
-			<image :src="item.img_url"></image>
+		<view class="goods_item" @click="navigator(item.id)" v-for="item in goods" :key="item.id">
+			<image src="./image/myPicture.jpg"></image>
 			<view class="price">
 				<text>￥{{item.sell_price}}</text>
 				<text>￥{{item.market_price}}</text>
@@ -21,7 +20,12 @@
 
 			};
 		},
-		props:['goods']
+		props:['goods'],
+		methods:{
+			navigator(id){
+				this.$emit('goodsItemClick',id)
+			}
+		}
 	}
 </script>
 

@@ -15,5 +15,10 @@
 
 <style>
 	/*每个页面公共css */
-	@import "./static/font/iconfont.css"
+	@import "./static/font/iconfont.css";
+	
+	.gomeImgLoad{
+		width: 750rpx;
+		height: auto;
+	}
 </style>

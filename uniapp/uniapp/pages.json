@@ -26,8 +26,28 @@
 			"path": "pages/contact/contact",
 			"style": {}
 
+		}, {
+			"path": "pages/pics/pics",
+			"style": {
+				"navigationBarTitleText": "社区图片"
+			}
+
+		}, {
+			"path": "pages/news-detail/news-detail",
+			"style": {
+				"navigationBarTitleText": "新闻详情"
+			}
+
 		}
-	],
+	    ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情"
+            }
+            
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "xp商城",

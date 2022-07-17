@@ -5,7 +5,10 @@
     "pages/member/member",
     "pages/news/news",
     "pages/goods/goods",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/news-detail/news-detail",
+    "pages/goods-detail/goods-detail"
   ],
   "subPackages": [],
   "window": {

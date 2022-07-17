@@ -2,6 +2,13 @@ import App from './App'
 
 import {myRequest} from './utils/api'
 Vue.prototype.$myRequest=myRequest
+Vue.filter('formatDate',(date)=>{
+	const newDate=new Date(date)
+	const year=newDate.getFullYear();
+	const month=newDate.getMonth()+1;
+	const day=newDate.getDay()
+	return year+'-'+month+'-'+day
+})
 // #ifndef VUE3
 import Vue from 'vue'
 Vue.config.productionTip = false
